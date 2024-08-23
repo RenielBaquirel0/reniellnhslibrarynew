@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="logo-icon" href="image/logo.png"> 
+<title>LNHS MEMES</title>
+<style>
+body{font-family:Arial,sans-serif;background-color:#f0f0f0;}
+img{margin:20px;border:1px solid #ccc;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,0.2);display:inline-block;}
+img:hover{border-color:#666;box-shadow:0 0 20px rgba(0,0,0,0.4);}
+body{text-align:center;}
+.return-button{background-color:#4CAF50;color:#fff;padding:10px 20px;border:none;border-radius:5px;cursor:pointer;}
+.return-button:hover{background-color:#3e8e41;}
+</style>
+</head>
+<body>
+<h1>Liloan National High School Library</h1>
+<img src="image1/yeah.jpg" alt="Picture 1" width="200" height="150">
+<img src="image1/yea1.jpg" alt="Picture 2" width="200" height="150">
+<img src="image1/yeah1.jpg" alt="Picture 3" width="200" height="150">
+<img src="image1/yeah2.jpg" alt="Picture 4" width="200" height="150">
+<img src="image1/akonalangkasi.jpg" alt="Picture 5" width="200" height="150">	
+<img src="image1/misskonasiya.jpg" alt="Picture 6" width="200" height="150">
+<br>
+<button class="return-button" onclick="location.href='index.html'">Return</button>
+<audio id="background-music" preload="auto">
+    <source src="sound/sound.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+  
+  <script>
+    const audio = document.getElementById('background-music');
+    document.addEventListener('click', () => {
+      audio.play();
+    });
+  </script>
+</body>
+</html>
